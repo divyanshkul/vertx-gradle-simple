@@ -17,9 +17,10 @@
 * Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
 * Clone the repository to your local machine by running the following commands on git:
 
-			`git clone https://github.com/[YOUR-USERNAME]/vertx-gradle-simple`
+            `git clone https://github.com/[YOUR-USERNAME]/vertx-gradle-simple`
 * If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/). You can also ask for help in our [gitter channel](https://gitter.im/jboss-outreach/gci).
 * Download Vert.x from http://vertx.io/
+
 
 ###### If not using an IDE, skip steps 1 and 2
 
@@ -28,8 +29,8 @@
 
 			* File ---> Project Structure ---> Project Settings ---> Set the project SDK to  **Java version 1.8**
 
-
 ## Running the app
+
 
 ### Two Methods: 
 
@@ -40,6 +41,7 @@
 * Click **Run as...**
 
 ##### 2. Command Line Method
+
 
 Directly run the application using the gradle plugin in the command line with ```./gradlew run``` OR ``` gradlew run ``` depending on your operating system.
 
@@ -56,7 +58,6 @@ You can try and edit the request handler response in the **HelloWorldEmbedded** 
 
 
 ## Contributing to the project
-
 1. Make your intended changes on your locally cloned repository
 2. Add a new branch with a meaningful name indicating your change (i.e. Add-Unit-Tests).
 2. *Commit* the changes and *Push* the commit to your forked repository on GitHub
